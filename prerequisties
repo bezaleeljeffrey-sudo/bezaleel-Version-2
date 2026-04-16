@@ -1,0 +1,69 @@
+## Prerequisites
+
+Before running SHANE, make sure you have the following installed on your system:
+
+### 1. Python
+- **Python 3.9 or higher** (Recommended: Python 3.9+)
+- Download from: [python.org](https://www.python.org/downloads/)
+
+### 2. JupyterLab
+- Install JupyterLab using pip:
+  ```bash
+  pip install jupyterlab
+
+  Or install via Anaconda (recommended for beginners)
+
+3. FFmpeg (Required for louder voice)
+
+Important: Needed for volume boost using pydub.
+Windows Users: Install using this command in Administrator Command Prompt:cmdwinget install ffmpeg
+After installation, restart JupyterLab.
+
+4. Required Python Packages
+Create a requirements.txt file with the following content:
+txtgtts
+speechrecognition
+pyaudio
+pyowm
+ipywidgets
+pydub
+Then install all dependencies with one command:
+Bashpip install -r requirements.txt
+5. Microphone Access
+
+Make sure your laptop/desktop has a working microphone.
+Allow microphone access when prompted by your browser or system.
+
+6. OpenWeatherMap API Key (Optional but Recommended)
+
+Get a free API key from: OpenWeatherMap
+Replace "your_openweather_api_key_here" in the code with your actual key to enable weather feature.
+
+
+System Requirements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ComponentMinimum RequirementOSWindows 10/11 (tested)RAM4 GB+InternetRequired for voice recognition, weather, and opening websitesMicrophoneBuilt-in or external
