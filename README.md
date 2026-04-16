@@ -2,7 +2,7 @@
 An improved and modernized version of SHANE - A powerful voice-controlled digital assistant built in Python. Features loud TTS, website launching, music playback (Apple Music, Amazon Music, YouTube Music), weather, time, and smart Google search. Runs smoothly in JupyterLab.
 
 
-# 🗣️ SHANE - Voice Digital Assistant (Improved Version)
+# 🗣️ BEZALEEL - Voice Digital Assistant (Improved Version)
 
 A modernized, user-friendly **voice-controlled digital assistant** built in Python, running in JupyterLab.
 
